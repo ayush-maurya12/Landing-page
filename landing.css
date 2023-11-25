@@ -1,0 +1,179 @@
+*{
+    padding:0px;
+    margin:0px;
+
+}
+.nav{
+    position:fixed;
+    height:60px;
+    width:100%;
+    background-color:transparent;
+    padding-top:20px;
+}
+.nav ul{
+    padding-left:400px;
+}
+a i{
+    margin-left:50px;
+    margin-right:10px;
+}
+a{
+    text-decoration: none;
+}
+.nav ul li{
+    list-style:none;
+    float:left;
+    padding-right:70px;
+    font-size:20px;
+    transition: all 1s;
+}
+li:hover{
+    color:rgb(12, 220, 231);
+    cursor:pointer;
+    text-decoration: underline;
+}
+a:link{
+    color:rgb(6, 6, 6);
+    font-weight:bold;
+}
+a:visited{
+    color:black;
+}
+a:active{
+    color:white;
+}
+#icon{
+    position:fixed;
+    top: 10;
+    right:150px;
+}
+#login{
+    font-size: 20px;
+    font-weight: bold;
+}
+#login:hover{
+    color:rgb(105, 104, 99);
+}
+.wed_img{
+    position:absolute;
+    height:750px;
+    width:100%;
+    top:0px;
+    left:0px;
+    /* margin:200px; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("https://youmatter.world/app/uploads/sites/2/2019/11/travel-world.jpg");
+    background-size: 100%;
+    line-height:70px;
+    z-index:-2;
+}
+.wed_img .para{
+    /* height:200px;
+    width:700px; */
+    color:black;
+    position:relative;
+    font-size:80px;
+    font-family: 'Ephesis',cursive;
+    font-weight:bold;
+    /* background-color:red; */
+    text-align:center;
+    padding-bottom:100px;
+}
+#btn{
+    margin-left:100px;
+    height:50px;
+    width:170px;
+    font-size:20px;
+    background-color:transparent;
+    color:rgb(5, 5, 5);
+    font-family:'Times New Roman', Times, serif;
+    border:1px solid black;
+    border-radius:5px;
+    transition:all 1s;
+}
+#btn:hover{
+    background-color:rgba(10, 248, 220, 0.265);
+}
+.img_doc1{
+    position:absolute;
+    left:0px;
+    top:760px;
+    margin-left:10px;
+    /* background-color:red; */
+    height:500px;
+    width:100%;
+    display:flex;
+    z-index:-2;
+    border:2px dotted black;
+    border-radius:10px; 
+    background-color:rgb(253, 245, 235);       
+}
+.ler_text{
+color:black;
+font-size:50px;
+line-height:50px;
+text-align:left;
+height:445px;
+width:528px;
+padding:50px 100px;
+margin-left:100px;
+}
+#ler1_text{
+color:black;
+font-size:25px;
+line-height:30px;
+font-family: 'Josefin Slab', serif;
+font-weight: bold;
+padding-top:30px;
+}
+.lerner{
+display:flex;
+position: absolute;
+top:1280px;
+left:0px;
+margin-left:30px;
+margin-right:30px;
+border:2px dotted black;
+border-radius:10px;
+background-color:rgb(253, 245, 235);
+z-index: -2;
+}
+.ler_text1{
+color:black;
+font-size:40px;
+/* line-height:0px; */
+text-align:left;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+height:600px;
+width:528px;
+padding-left:50px;
+/* background-color: black; */
+}
+#ler1_text1{
+color:black;
+font-size:25px;
+padding-left:0px;
+font-family: 'Josefin Slab', serif;
+font-weight:bold;
+}
+.ler_text1 p{
+font-family: 'Times New Roman', Times, serif;
+font-size:50px;
+padding-top:80px;
+padding-bottom:10px;
+}
+input:hover{
+background-color:rgb(92, 91, 91);
+color:white;
+border:none
+}
+.page3{
+position:absolute;
+height:500px;
+width:100%;
+top:1900px;
+left:0px;
+background-color:black;
+}
